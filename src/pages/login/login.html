@@ -7,12 +7,48 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Login</ion-title>
+    <ion-title>เข้าสู่ระบบ</ion-title>
   </ion-navbar>
 
 </ion-header>
-
-
-<ion-content padding>
-
+<ion-content>
+  <ion-card>
+    <ion-card-header style="text-align: center">
+        <span class="method-text">เข้าสู่ระบบด้วย Social Network</span>
+      <br><br>
+      <ion-list>
+        <button ion-button color="facebook">
+          <div>
+            <ion-icon name="logo-facebook"></ion-icon>
+          </div> เข้าสู่ระบบด้วย Facebook</button>
+        <br>
+        <button ion-button color="twitter">
+          <div>
+            <ion-icon name="logo-twitter"></ion-icon>
+          </div> เข้าสู่ระบบด้วย Twitter</button>
+        <br>
+        <button ion-button color="googlePlus">
+          <div>
+            <ion-icon name="logo-googleplus"></ion-icon>
+          </div> เข้าสู่ระบบด้วย Google</button>
+        <br>
+      </ion-list>
+      <br>
+      <br> <span class="method-text">เข้าสู่ระบบด้วย ID ของ Dek-D</span> <br><br>
+      <ion-item>
+        <ion-label>
+          <ion-icon name="person"></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Username หรือ Email"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label>
+            <ion-icon name="lock"></ion-icon></ion-label>
+          <ion-input type="text" placeholder="Password"></ion-input>
+        </ion-item>
+        <button ion-button color="primary">เข้าสู่ระบบ</button>
+        <div style="text-align:center;  height: 50px; padding-top:20px; color:rgb(175, 111, 0)">
+          ลืมรหัสผ่าน | สมัครสมาชิก
+        </div>
+    </ion-card-header>
+  </ion-card>
 </ion-content>
