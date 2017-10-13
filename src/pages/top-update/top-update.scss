@@ -10,11 +10,17 @@ page-top-update {
         color: color($colors, primary,base);
         background-color: #f4f4f4;
     }
+    .card-title {
+        color: #1c3800;
+    }
     .card-title .item{
         padding-left: 0px;
         font-size: 12px;
     }
 
+    .content {
+        background-color:#ebd3c5;
+    }
     .update-text{
         margin-top: 10px;
         font-size: 10px;
