@@ -1,7 +1,15 @@
 page-top-update {
     .toolbar-background {
-        background-color: #ff8800;
+        background-color: color($colors, primary,base);
       }
+      .toolbar-title {
+        color: #ffffff !important;
+      }
+
+    .segment-ios-light .segment-button.segment-activated {
+        color: color($colors, primary,base);
+        background-color: #f4f4f4;
+    }
     .card-title .item{
         padding-left: 0px;
         font-size: 12px;
