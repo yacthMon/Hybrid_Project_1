@@ -1,3 +1,12 @@
 page-novel-type {
-
+    .toolbar-background {
+        background-color: color($colors, primary,base);
+        
+      }
+      .toolbar-title {
+        color: #ffffff !important;
+      }
+      .back-button {
+        color: #ffffff !important;
+      }
 }
