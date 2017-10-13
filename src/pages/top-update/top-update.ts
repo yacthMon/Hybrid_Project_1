@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
+import { NovelTypePage } from '../novel-type/novel-type';
 /**
  * Generated class for the TopUpdatePage page.
  *
@@ -19,6 +19,10 @@ export class TopUpdatePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TopUpdatePage');
+  }
+
+  goSelectType(){
+    this.navCtrl.push(NovelTypePage);
   }
 
 }
