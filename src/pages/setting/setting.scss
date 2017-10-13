@@ -1,3 +1,22 @@
 page-setting {
-
+    .toolbar-background {
+        background-color: color($colors, primary,base);
+        
+      }
+      .toolbar-title {
+        color: #ffffff !important;
+      }
+      .back-button {
+        color: #ffffff !important;
+      }
+      .description{
+          color:grey;
+      }
+      .item{
+        padding-left: 0px;        
+      }
+      .label{
+          color: #2c1200;
+        font-size: 15px;
+      }
 }
