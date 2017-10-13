@@ -2,4 +2,22 @@ page-top-update {
     .toolbar-background {
         background-color: #ff8800;
       }
+    .card-title .item{
+        padding-left: 0px;
+        font-size: 12px;
+    }
+
+    .update-text{
+        margin-top: 10px;
+        font-size: 10px;
+        color: grey;
+    }
+
+    .card-subtitle {        
+        background-color: #d9eac9;
+    }
+
+    .custom-icon {
+        color : #448c00;
+      }
 }
