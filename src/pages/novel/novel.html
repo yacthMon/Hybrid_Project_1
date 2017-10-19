@@ -81,7 +81,7 @@
 
 
 	<ion-list class="saraban">
-		<ion-item >
+		<ion-item (click)='goChapter()' >
 			<span style="font-size: 9pt"><b>สารบัญ</b> </span>
 			<span style="font-size: 9pt;  color:saddlebrown;     padding-left: 9em;">แสดงตอนที่1-10/47ตอน</span>
 		</ion-item>
@@ -140,23 +140,27 @@
 		
 <br>
 	<div class="comment">
-		<ion-item>
-			ความคิดเห็นล่าสุด
-		</ion-item>
+		
+		<span>ความคิดเห็นล่าสุด</span>
+		<hr>
 		<ion-grid>
 			<ion-row>
 				<ion-col col-3>
 					<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
 				</ion-col>
-				<ion-col col-9>len-lom<br>
-						18 ต.ค.60 / 15.23 น. (จากตอนที่41)<br>
-						สนุกมากๆเลยค่ะ<br>
+				<ion-col col-9><b>len-lom</b><br>
+						<span style=" font-size: 5pt; color: gray;">18 ต.ค.60 / 15.23 น. (จากตอนที่41)<br></span>
+						<span>สนุกมากๆเลยค่ะ<br></span>
 
-				</ion-col>
-			</ion-row></ion-grid>
-<button ion-button full color="primary">อ่านและแสดงความคิดเห็น
-<ion-icon name="arrow-forward" small></ion-icon></button>
-	</div>
+					</ion-col>
+				</ion-row></ion-grid>
+			</div>
+			<div class="buttonCustom">
+				<button ion-button full color="primary">
+					<span style="font-size: 10pt;">อ่านและแสดงความคิดเห็น</span>
+					<ion-icon name="arrow-forward" small></ion-icon>
+				</button>
+			</div>
 
 
 

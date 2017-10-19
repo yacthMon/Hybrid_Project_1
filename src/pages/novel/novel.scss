@@ -54,9 +54,17 @@ page-novel {
 
 	
 	.comment{
-		margin-top:18px;
-	 	background-color:white;
-	 	    margin-bottom: 13px;
+	  padding: 6px 9px;
+    margin-top: 7px;
+    background-color:white;
 	}
 
+	.comment b{
+		color: darkorange;;
+	}
+
+	.buttonCustom{
+	 margin-top: -3px;
+    font-size: 7pt;
+	}
 }

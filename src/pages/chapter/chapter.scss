@@ -1,3 +1,38 @@
 page-chapter {
+	.toolbar-background {
+		background-color: color($colors, primary,base);
+	}
+	.toolbar-title {
+		color: #ffffff !important;
+	}
+	.content {
+        background-color:#ebd3c5;
+    }
+	.headTitle{
+	    padding: 7px 18px 6px;
+   	 	background-color: lightgoldenrodyellow;
+    	color: saddlebrown;
+	}
+	.content01{
+		padding: 7px 18px 6px;
+		background-color:white;
+	}
+	.changePage{
+		background-color: lightgoldenrodyellow;
+    	color: saddlebrown;
+    	padding:11px;
+	}
 
+	.comment{
+	    padding: 6px 9px;
+    margin-top: 7px;
+    background-color:white;
+	}
+	.comment b{
+		color: darkorange;;
+	}
+	.buttonCustom{
+	 margin-top: -3px;
+    font-size: 7pt;
+	}
 }
