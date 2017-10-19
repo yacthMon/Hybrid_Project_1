@@ -18,10 +18,10 @@
 
  <ion-list>
 	<ion-item  no-lines class="bottom-border" href="#">
-		 <ion-icon name="star" item-start></ion-icon>
+		 <ion-icon name="md-contact" item-start style="color: #E64A19"></ion-icon>
       เข้าสู่ระบบ
 	</ion-item>  
-	<ion-item (click)='goChapter()'  no-lines class="bottom-border"  href="#">
+	<ion-item (click)='goChapter()' no-lines class="bottom-border"  href="#">
 		 <ion-icon name="md-add-circle" item-start></ion-icon>
       สมัครสมาชิก
 	</ion-item>
@@ -31,11 +31,11 @@
 
 
 <ion-list>
-	<ion-item  no-lines class="bottom-border" href="#">
+	<ion-item (click)='goBookmark()' no-lines class="bottom-border" href="#">
 		 <ion-icon name="md-bookmark" item-start></ion-icon>
      รายชื่อนิยายที่ Bookmark ไว้
 	</ion-item>  
-	<ion-item  no-lines class="bottom-border"  href="#">
+	<ion-item class="bottom-border" no-lines  href="#">
 		 <ion-icon name="time" item-start></ion-icon>
       ประวัติการอ่านนิยายทั้งหมด
 	</ion-item>
@@ -66,7 +66,7 @@
 		 <ion-icon name="information-circle" item-start></ion-icon>
       เกี่ยวกับ App นี้
 	</ion-item>
-	<ion-item  no-lines class="bottom-border" href="#">
+	<ion-item   class="bottom-border" no-lines href="#">
 		<ion-icon name="information-circle" item-start></ion-icon>
       ไปหน้าแรก Dek-D.com
 	</ion-item>

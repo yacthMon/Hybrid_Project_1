@@ -7,15 +7,23 @@ page-about-me {
 	}
 
 	.item[no-lines].bottom-border { 
-    border-bottom: 1px solid grey; 
+    border-bottom: 1px solid #F5F5F5; 
 	}
 	.content {
         background-color:#ebd3c5;
     }
   
-	.item-ios{
+	.item{
 		font-size: 1.5rem;
 	}
     
+    .list{
+        margin: -1px 0 14px;
+    }
+    .item ion-icon{
+    	color: #BF360C;
+        font-size: 16pt;
+        padding-top: 6px;
+    }
 
 }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { ChapterPage } from '../chapter/chapter';
+import { BookmarkPage } from '../bookmark/bookmark';
 
 /**
  * Generated class for the AboutMePage page.
@@ -20,6 +21,10 @@ export class AboutMePage {
 
   goChapter(){
     this.navCtrl.push(ChapterPage);
+  }
+
+  goBookmark(){
+    this.navCtrl.push(BookmarkPage);
   }
   ionViewDidLoad() {
     console.log('ionViewDidLoad AboutMePage');
