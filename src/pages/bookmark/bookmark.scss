@@ -1,3 +1,47 @@
 page-bookmark {
+	.toolbar-background {
+		background-color: color($colors, primary,base);
+	}
+	.toolbar-title {
+		color: #ffffff !important;
+	}
+	.back-button.show-back-button {
+    	color: white;
+	}
+	.content {
+        background-color:#ebd3c5;
+    }
 
+    .headTitle{
+    	background-color:white;
+    	color: saddlebrown;
+    	padding:7px 10px;
+    	font-size:10.5pt;
+    }
+    .item {
+    padding-left: 0px;
+    }
+
+    .title{
+    	padding-left: 10px;
+    	font-size: 11pt;
+    }
+
+    .chap{
+    	font-size: 8.5pt;
+    color: saddlebrown;
+    padding-left: 10px;
+
+    }
+
+    .time{
+    	font-size: 9.5pt;
+    	color: grey;
+    	padding-left: 11px;
+    }
+    .media-img{
+        width: 55px;
+    margin-left: 6em;
+    margin-top: -5em;
+    }
 }
