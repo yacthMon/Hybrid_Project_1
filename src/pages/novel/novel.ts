@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
+import { TopUpdatePage } from '../top-update/top-update';
 /**
  * Generated class for the NovelPage page.
  *
@@ -17,6 +17,10 @@ export class NovelPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+   goTopUpdate(){
+     this.navCtrl.pop();
+  }
+//<button (click)="goTopUpdate()">
   ionViewDidLoad() {
     console.log('ionViewDidLoad NovelPage');
   }

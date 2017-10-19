@@ -1,3 +1,62 @@
 page-novel {
+	.toolbar-background {
+		background-color: color($colors, primary,base);
+	}
+	.toolbar-title {
+		color: #ffffff !important;
+	}
+	.content {
+        background-color:#ebd3c5;
+    }
+
+	ion-icon {
+    	font-size: 2.2em;
+    	margin-left: 6px;
+    	margin-top: 6px;
+	}
+	.toolbar-ios ion-title{
+		padding:0 37px 1px;
+	}
+
+	.content .head01{
+		padding: 10px 16px;
+		background-color:white;
+	}
+
+	.content .headTitle{
+	 color:saddlebrown;
+	 font-size:1.5rem;
+	}
+
+	.content .abstract{
+	 font-size:10pt;
+	}
+
+	.content .head02{
+		padding: 9px 16px;
+		font-size:10pt;
+		background-color:white;
+	}
+
+	.content .list .item .context{
+	color:red;
+	}
+
+	.item{
+	    font-size: 1.5rem;
+	}
+	.label-ios {
+    margin: 8px 7px 8px 0;
+	}
+	.list.saraban{
+    margin: 0px 0px -5px;
+	}
+
+	
+	.comment{
+		margin-top:18px;
+	 	background-color:white;
+	 	    margin-bottom: 13px;
+	}
 
 }
