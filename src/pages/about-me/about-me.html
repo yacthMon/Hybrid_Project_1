@@ -18,7 +18,7 @@
 
  <ion-list>
 	<ion-item  no-lines class="bottom-border" href="#">
-		 <ion-icon name="md-contact" item-start style="color: #E64A19"></ion-icon>
+		 <ion-icon name="md-contact" item-start style="color: #E64A19" (click)='goLogin()'></ion-icon>
       เข้าสู่ระบบ
 	</ion-item>  
 	<ion-item (click)='goChapter()' no-lines class="bottom-border"  href="#">
@@ -47,7 +47,7 @@
 	
 </style>
 <ion-list>
-	<ion-item  no-lines class="bottom-border" href="#">
+	<ion-item  no-lines class="bottom-border" (click)='goSetting()'>
 		 <ion-icon name="md-settings" item-start></ion-icon>
      ตั้งค่าการใช้งาน
 	</ion-item> 

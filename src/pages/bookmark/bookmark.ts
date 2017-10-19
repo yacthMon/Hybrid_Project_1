@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { NovelPage } from '../novel/novel';
 
 /**
  * Generated class for the BookmarkPage page.
@@ -19,6 +20,10 @@ export class BookmarkPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BookmarkPage');
+  }
+
+  goNovel(){
+    this.navCtrl.push(NovelPage);
   }
 
 }
